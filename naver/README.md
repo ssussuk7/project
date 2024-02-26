@@ -7,7 +7,7 @@
 
 
 ## 1. Header
-  ![hover](/readmd/3.png)<br>
+  ![hover](./readmd/3.png)<br>
   먼저 header부분이다. `nav-bar`, `검색창`, `바로가기 아이콘`등을 구현해야 했다. 버튼 아이콘은 `font awesome`에서 최대한 비슷한 것으로 구현했다.
 
 ## nav bar
@@ -19,7 +19,7 @@ nav bar에서 구현해야 할 기능들이 몇 가지 있었는데
  
  icon을 hover했을 때 `hidden` 된 `div` 태그를 보이게 하는 것으로 구현했고, `border radius`도 주어 배경색깔이 보이도록 하였다.
 
-  ![hover](/readmd/1.png)<br><br>
+  ![hover](./readmd/1.png)<br><br>
   container로 버튼을 감싸고 hover했을 때 버튼에 `border`를 활성화시켰다.
 
   ```html
@@ -29,7 +29,7 @@ nav bar에서 구현해야 할 기능들이 몇 가지 있었는데
 
 
  - `click` 했을 때, 숨겨졌던 `div` 출력<br><br>
-   ![hover](/readmd/2.png)
+   ![hover](./readmd/2.png)
 
 
 2) 검색창
