@@ -1,73 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
   <!-- font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="item.css">
+
 </head>
+
 <body>
+  <div class="inner">
 
-  <div class="wrap">
-    <div class="header">
-      <div class="nav-div d-flex">
-        <div class="nav-button">
-          <i class="icon fa-solid fa-bars"></i>
-          <div class="hidden">
-            <p class="hidden-hover">바로가기</p>
+    <!-- header -->
+    <!-- navbar -->
+    <div class="header-bg">
+      <div class="header">
+        <div class="headerDiv">
+          <i class="item item_menu"></i>
+          <div class="dp_none">
+            <i class="arrow"></i>
+            바로가기
           </div>
-          <div class="hidden baro">
-            <div class="">
-              <p>바로가기</p>
-              <div class="d-flex">
-                <p>naver님></p>
-                <div class="flex-grow-1"></div>
-                <p>펼쳐보기</p>
-                <div></div>
-                <p>편집</p>
 
+        </div>
+        <div class="headerDiv">
+          <i class="item item_pay"></i>
+          <div class="dp_none">
+            <i class="arrow"></i>
+            네이버페이
+          </div>
+
+        </div>
+        <div class="flex-grow"></div>
+        <div class="headerDiv">
+          <i class="item item_talk"></i>
+          <div class="dp_none">
+            <i class="arrow"></i>
+            네이버톡톡
+          </div>
+        </div>
+        <div class="headerDiv">
+          <i class="item item_alram"></i>
+          <div class="dp_none">
+            <i class="arrow"></i>
+            <span>알림</span>
+            <span class="dot">·</span>
+            <span>혜택</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 검색창 -->
+      <div class="headerInput">
+        <div class="logoSection">
+          <i class="item"></i>
+        </div>
+        <div class="searchSection"></div>
+        <div class="etcSection">
+          <i class="item"></i>
+          <i class="item"></i>
+          <i class="item"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- 바로가기 메뉴 -->
+    <ul class="shortcut_list">
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_mail"></i>
+        <span>메일</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_cafe"></i>
+        <span>카페</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_blog"></i>
+        <span>블로그</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_shop"></i>
+        <span>쇼핑</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_news"></i>
+        <span>뉴스</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_money"></i>
+        <span>증권</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_house"></i>
+        <span>부동산</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_map"></i>
+        <span>지도</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_webtoon"></i>
+        <span>웹툰</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <img src="./img/czz.png" class="item item_czz" alt="">
+        <span>치지직</span>
+      </li>
+
+      <li class="shortcutLi">
+        <i class="item_bg"></i>
+        <div class="item_shadow"></div>
+        <i class="item item_etc"></i>
+      </li>
+
+    </ul>
+
+    <!-- main section -->
+    <section class="mainSec">
+      <div class="mainLeft">
+        <div class="leftAd">
+          <img src="./img/leftAd.jpg" class="adImg" alt="">
+        </div>
+
+        <div class="leftNews">
+          <div class="newsHeader">
+            <p class="newsTitle">
+              뉴스스탠드
+              <span class="newsDot"></span>
+              언론사편집
+              <span class="dashRotate"></span>
+              엔터
+              <span class="dashRotate"></span>
+              스포츠
+              <span class="dashRotate"></span>
+              경제
+            </p>
+            <div class="flex-grow"></div>
+            <img class="item_vote" src="./img/vote.png" alt="">
+          </div>
+
+          <div class="newsShorts">
+            <div>
+              <p>
+                전체언론사
+                <i class="item item_arrowBottom"></i>
+              </p>
+            </div>
+            <span class="dash"></span>
+            <div class="flex-grow shortMid">
+              <p>
+                연합뉴스
+                <span class="dot"></span>
+                <div class="translateDiv">
+
+                </div>
+              </p>
+            </div>
+            <div>
+              <p>뉴스홈</p>
+            </div>
+          </div>
+
+          <div class="news">
+            <div class="newsCon">
+              <div class="newsimgDiv">
+                <img class="newsimg" src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fmimgnews%2Fimage%2Forigin%2F024%2F2024%2F03%2F20%2F88074.jpg%3Fut%3D20240320171506%22&type=nf312_208&service=navermain" alt="">
+              </div>
+              <div class="right">
+                <div class="newsTi">
+                  <span class="badge">
+                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fmimgnews%2Fimage%2Fupload%2Foffice_logo%2F055%2F2020%2F10%2F07%2Flogo_055_56_20201007141807.jpg%22&type=f108_108&service=navermain" alt="">
+                  </span>
+                  <span class="newsTitle">서울경제</span>
+                  <button class="btn">구독+</button>  
+                </div>
+                <p class="newsContent">얼굴에 매일 쓰는건데…세균·곰팡이 '득실'</p>
+                <p style="color: #606060;">03월 21일 14:30</p>
+              </div>
+            </div>
+            <div class="newsCon">
+              <div class="newsimgDiv">
+                <img class="newsimg" src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fmimgnews%2Fimage%2Forigin%2F053%2F2024%2F03%2F21%2F42337.jpg%3Fut%3D20240321143801%22&type=nf312_208&service=navermain" alt="">
+              </div>
+              <div class="right">
+                <div class="newsTi">
+                  <span class="badge">
+                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fmimgnews%2Fimage%2Fupload%2Foffice_logo%2F417%2F2021%2F01%2F25%2Flogo_417_56_20210125161624.png%22&type=f108_108&service=navermain" alt="">
+                  </span>
+                  <span class="newsTitle">머니S</span>
+                  <button class="btn">구독+</button>  
+                </div>
+                <p class="newsContent">[단독]이부진 올화이트 '주총 패션' 눈길…"올해도 이 브랜드"</p>
+                <p style="color: #606060;">03월 21일 14:30</p>
+              </div>
+            </div>
+
+            <div class="newsCon">
+              <div class="newsimgDiv">
+               <img class="newsimg" src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fmimgnews%2Fimage%2Forigin%2F308%2F2024%2F03%2F21%2F34536.jpg%3Fut%3D20240321054204%22&type=nf312_208&service=navermain" alt="">
+              </div>
+              <div class="right">
+                <div class="newsTi">
+                  <span class="badge">
+                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fmimgnews%2Fimage%2Fupload%2Foffice_logo%2F657%2F2022%2F01%2F19%2Flogo_657_56_20220119135625.png%22&type=f108_108&service=navermain" alt="">
+                  </span>
+                  <span class="newsTitle">대구mbc NEWS</span>
+                  <button class="btn">구독+</button>  
+                </div>
+                <p class="newsContent">[뉴스메이커] '소주 한 잔?' 식당에서 잔술 판매 가능해진다</p>
+                <p style="color: #606060;">03월 21일 14:30</p>
+              </div>
+            </div>
+
+            <div class="newsCon">
+              <div class="newsimgDiv">
+               <img class="newsimg" src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fmimgnews%2Fimage%2Forigin%2F296%2F2024%2F03%2F21%2F75865.jpg%3Fut%3D20240321150201%22&type=nf312_208&service=navermain" alt="">
+              </div>
+
+              <div class="right">
+                <div class="newsTi">
+                  <span class="badge">
+                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fmimgnews%2Fimage%2Fupload%2Foffice_logo%2F055%2F2020%2F10%2F07%2Flogo_055_56_20201007141807.jpg%22&type=f108_108&service=navermain" alt="">
+                  </span>
+                  <span class="newsTitle">서울경제</span>
+                  <button class="btn">구독+</button>  
+                </div>
+                <p class="newsContent">'킹크랩 53만원' 소래포구, 광어회 1억원어치 무료로 쏜다</p>
+                <p style="color: #606060;">03월 21일 14:30</p>
               </div>
             </div>
 
           </div>
+
         </div>
-        <i class="fa-solid fa-money-bill"></i>
-        <div class="flex-grow-1"></div>
-        <i class="fa-regular fa-comment"></i>
-        <i class="fa-regular fa-bell"></i>
       </div>
 
-
-    </div>
-
-
+      <div class="mainRight">
+        <div class="rightLogin">
+          <p>네이버를 더 안전하고 편리하게 이용하세요</p>
+          <div class="loginLogo">
+            <i class="item item_naver"></i> 
+            로그인
+          </div>
+          <div>
+            <p>
+              아이디 찾기 
+              <span class="dash"></span> 
+              비밀번호 찾기 
+              <span class="dash"></span> 
+              회원가입
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 
+    <section class="sportsSection">
+      <div class="container">
 
-  
+      </div>
+    </section>
+
+    <section class="inner">
+
+    </section>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-<script>
-  document.querySelector('.icon').addEventListener('mouseover',function(){
-    document.querySelector('.hidden-hover').classList.add('visible');
-  })
-
-  document.querySelector('.icon').addEventListener('mouseout',function(){
-    document.querySelector('.hidden-hover').classList.remove('visible');
-  })
-
-  document.querySelector('.icon').addEventListener('click',function(){
-    document.querySelector('.baro').classList.toggle('visible');
-    document.querySelector('.hidden-hover').classList.remove('visible');
-  })
-
 
 
 </script>

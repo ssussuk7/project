@@ -1,0 +1,80 @@
+  .item_mail{
+    background-position: -250px -90px;
+  }
+  
+  .item_cafe{
+    background-position: -250px 0px;
+  }
+  
+  .item_blog{
+    background-position: -201px -98px;
+  }
+  
+  .item_shop{
+    background-position: -90px -209px;
+  }
+  
+  .item_news{
+    background-position: 0px -209px;
+  }
+  
+  .item_money{
+    background-position: -180px -209px;
+  }
+  
+  .item_house{
+    background-position: -45px -209px;
+  }
+  
+  .item_map{
+    background-position: -201px 0px;
+  }
+  
+  .item_webtoon{
+    background-position: -225px -209px;
+  }
+  
+  .item_czz{
+    background-position: -999px -999px;
+  }
+  
+  .item_etc{
+    background-position: -250px -135px;
+  }
+
+  .item_menu{
+    background-position: -314px -330px;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .item_pay{
+    background-position: -295px -177px;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .item_talk{
+    background-position: -364px -81px;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .item_alram{
+    background-position: -364px -27px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .item_naver{
+    background-position: -55px -166px;
+    width: 72px;
+    height: 14px; 
+  }
+
+  .item_arrowBottom{
+    background-position: -123px -272px;
+    width: 9px;
+    height: 6px; 
+    display: inline-block;
+  }
